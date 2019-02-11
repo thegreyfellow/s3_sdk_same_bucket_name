@@ -2,6 +2,7 @@ This repo is here to show the issue with buckets with same name but in different
 cloud providers that are compatible with S3 including S3, and we can't access once
 their region is cached.
 
+- aws-sdk-s3 version: `1.30.1`
 - setup your `.env.template` and rename it to `.env`.
 - create two buckets inside S3 and Wasabi with same name, but different region.`
 - run: 
